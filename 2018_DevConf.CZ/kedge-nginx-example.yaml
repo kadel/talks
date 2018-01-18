@@ -1,0 +1,11 @@
+name: nginx
+
+deployments:
+- replicas: 3
+  containers:
+    - image: nginx:1.7.9
+
+services:
+- ports:
+  - port: 80
+  
